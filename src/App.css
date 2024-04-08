@@ -1,0 +1,177 @@
+.app-container {
+  min-height: 100vh;
+  width: 100vw;
+  background-image: url("https://img.freepik.com/premium-vector/3d-rectangle-with-lite-green-background_18501-238.jpg?w=996");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.header h1 {
+  color: #303030;
+  font-size: 24px;
+  font-weight: 700;
+}
+.retry-button {
+  border: 1px solid #303030;
+  background-color: #e0e0e0;
+  color: #323232;
+  border-radius: 6px;
+  padding: 5px 8px 7px 8px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 13px;
+  margin-top: 8px;
+  outline: none;
+}
+.retry-button:active {
+  outline: none;
+}
+.retry-button:focus {
+  outline: none;
+}
+.top {
+  display: none;
+}
+.buttom {
+  text-align: center;
+}
+.bottom-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-bottom: 25px;
+}
+.modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f5f5f5;
+  width: 210px;
+  padding: 18px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.modal-title {
+  font-size: 18px;
+}
+.modal-description {
+  font-size: 14px;
+  margin-left: 6px;
+  margin-bottom: 1px;
+}
+.modal-button {
+  font-size: 13px;
+  background-color: #303030;
+  color: #dedede;
+  font-weight: 600;
+  padding: 6px 12px 8px 12px;
+}
+.modal-para {
+  margin-left: 6px;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 769px) {
+  .app-container {
+    display: block;
+  }
+  .header {
+    padding: 15px 60px;
+    margin-bottom: 55px;
+  }
+  .top {
+    display: inline;
+  }
+  .buttom {
+    display: none;
+  }
+  .header h1 {
+    font-size: 26px;
+  }
+  .header button {
+    padding: 8px 12px 9px 12px;
+    font-size: 15px;
+  }
+  .card-container {
+    width: 400px;
+  }
+  .modal-box {
+    width: 280px;
+    padding: 20px;
+  }
+  .modal-title {
+    font-size: 22px;
+  }
+  .modal-description {
+    font-size: 16px;
+  }
+  .modal-para {
+    font-size: 16px;
+  }
+  .modal-button {
+    font-size: 14px;
+    background-color: #303030;
+    color: #dedede;
+    padding: 7px 14px 9px 14px;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .header {
+    padding: 20px 75px;
+    margin-bottom: 60px;
+  }
+  .header h1 {
+    font-size: 28px;
+  }
+  .header button {
+    padding: 8px 14px 9px 14px;
+    font-size: 16px;
+  }
+  .card-container {
+    width: 500px;
+  }
+  .modal-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f5f5f5;
+    width: 300px;
+    padding: 22px;
+    border-radius: 5px;
+  }
+  .modal-title {
+    font-size: 26px;
+  }
+  .modal-description {
+    font-size: 16px;
+  }
+  .modal-para {
+    font-size: 16px;
+  }
+  .modal-button {
+    font-size: 15px;
+    background-color: #303030;
+    color: #dedede;
+    font-weight: 600;
+    padding: 8px 16px 10px 16px;
+  }
+}

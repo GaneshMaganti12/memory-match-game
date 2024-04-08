@@ -24,7 +24,7 @@
   background-color: #e0e0e0;
   color: #323232;
   border-radius: 6px;
-  padding: 5px 8px 7px 8px;
+  padding: 5px 8px 6px 8px;
   cursor: pointer;
   font-weight: 700;
   font-size: 13px;
@@ -70,23 +70,26 @@
 }
 .modal-title {
   font-size: 18px;
+  color: #303030;
 }
 .modal-description {
   font-size: 14px;
   margin-left: 6px;
   margin-bottom: 1px;
+  color: #3e3e3e;
 }
 .modal-button {
   font-size: 13px;
   background-color: #303030;
   color: #dedede;
   font-weight: 600;
-  padding: 6px 12px 8px 12px;
+  padding: 6px 12px 7px 12px;
 }
 .modal-para {
   margin-left: 6px;
   font-size: 14px;
   margin-top: 2px;
+  color: #3e3e3e;
 }
 
 @media screen and (min-width: 769px) {
@@ -130,7 +133,7 @@
     font-size: 14px;
     background-color: #303030;
     color: #dedede;
-    padding: 7px 14px 9px 14px;
+    padding: 7px 14px 8px 14px;
   }
 }
 @media screen and (min-width: 1025px) {
@@ -172,6 +175,6 @@
     background-color: #303030;
     color: #dedede;
     font-weight: 600;
-    padding: 8px 16px 10px 16px;
+    padding: 8px 16px 9px 16px;
   }
 }
